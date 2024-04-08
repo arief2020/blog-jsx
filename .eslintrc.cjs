@@ -9,9 +9,7 @@ module.exports = {
       env: {
         node: true,
       },
-      files: [
-        '.eslintrc.{js,cjs}',
-      ],
+      files: ['.eslintrc.{js,cjs}'],
       parserOptions: {
         sourceType: 'script',
       },
@@ -25,8 +23,8 @@ module.exports = {
   },
   plugins: ['react'],
   settings: {
-    react:{
-      version: 'detect'
-    }
-  }
+    react: {
+      version: 'detect',
+    },
+  },
 };
